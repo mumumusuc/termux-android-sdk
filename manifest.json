@@ -1,0 +1,20 @@
+{
+    "control": {
+        "Package": "android-sdk",
+        "Version": "30.0.3",
+        "Architecture": "aarch64",
+        "Maintainer": "mumumusuc <mumumusuc@gmail.com>",
+        "Depends": "openjdk-17",
+        "Homepage": "https://www.github.com/mumumusuc/termux-android-sdk",
+        "Description": [ "android sdk for flutter" ]
+    },
+
+    "installation_prefix": "/data/data/com.termux/files/usr",
+
+    "data_files": {
+        "opt/android-sdk": { 
+            "source": "android-sdk", 
+            "source_recurse": true 
+        }
+    }
+}
